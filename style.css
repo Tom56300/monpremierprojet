@@ -1,51 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@font-face {
+    font-family: Raleway;
+    src: url(../font/Raleway-Regular.woff);
+}
 #total{
     width: 1160px;
     background-color:#782221;
-      }
+}
+
 body{
     display: flex;
     justify-content: center;
-    }
+}
+
 .maphoto{
     border-radius: 50%;
     width: 150px;
     box-shadow: 0px 0px 10px 5px whitesmoke;
-        }
+}
+
 .maphoto:hover{
     cursor: zoom-in;
 }
+
 .header{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 35px;
-       }
+}
 
 .bandeau-noir{
     display: flex;
     justify-content: space-around;
     align-items:center;
     background:#2c1d27 ;
-    
-    
-    
-             }
+}
              
 #Mon-nom{
     display: flex;
     justify-content: center;
     font-family: "Lato";
     color: white;
-        }
+}
 
 #Mon-job{
     font-family:"Lato";
     display: flex;
     justify-content: center;
     color: white;
-        }
+}
 
 
 a{
@@ -55,6 +59,7 @@ a{
     align-content: center;
     
 }
+
 .info1{
     display: flex;
     color: white;
@@ -62,36 +67,43 @@ a{
     font-weight: 400;
     align-items: center;
     margin-left: 10px;    
-    }
+}
+
 .info1:hover{
     color: white;
     text-decoration: underline;
-            }    
+}
+
 .info2{
     display: flex;
     color: white;
     font-weight: 400;
     padding-right: 170px;
-      }
+}
+
 .info2:hover{
     color: white;
     text-decoration: underline;
-            }
+}
+
 .info3{
     display: flex;
     color: white;
     font-weight: 400;
-      }
+}
+
 .info3:hover{
     color: white;
     text-decoration: underline;
-            }
+}
+
 li{
     font-family: "Raleway";
     color: white;
     margin-left: 18px;
     font-weight: bold;
 }
+
 p{
 
     font-family: "Raleway";
@@ -99,19 +111,19 @@ p{
     margin-left: 45px;
     
 }
+
 #bloc-gauche{
     display: flex;
     flex-direction: column;
     background: #782221;
     width: 310px;
     margin-top: 20px;
-    
-    
-      
 }
+
 .list1{
     font-weight: 400;
 }
+
 .apropos{
     font-family: "Lato";
     padding-top: 2px;
@@ -119,36 +131,41 @@ p{
     padding-left: 20px;
     
 }
+
 .langues{
     font-family: "Lato";
     padding-top: 2px;
     margin-top: 10px;
     padding-left: 20px;
 }
+
 .centre{
     font-family: "Lato";
     padding-top: 2px;
     margin-top: 14px;
     padding-left: 20px;
 }
+
 #bloc-droite{
     display: flex;
     flex-direction: column;
     background: white;
     width: 800px;
-    border-right: solid;
-    
+    border-right: solid;    
 }
+
 .twoblocs{
     display: flex;
     justify-content: space-between;
 }
+
 .list{
     color: black;
     margin-left: 43px;
     font-family: "Raleway";
     
 }
+
 h3{
     display: flex;
     background: #dbc2a4; 
@@ -156,6 +173,7 @@ h3{
     
 
 }
+
 .expe{
     font-family: "Lato";
     padding-top: 2px;
@@ -165,7 +183,8 @@ h3{
     border-left: #782221 solid;
     border-width: 5px;
     width: 730px;
-     }
+}
+
 .diplomes{
     font-family: "Lato";
     padding-top: 2px;
@@ -176,6 +195,7 @@ h3{
     border-width: 5px;
     width: 730px;
 }
+
 .compétences{
     font-family: "Lato";
     padding-top: 2px;
@@ -186,39 +206,55 @@ h3{
     border-width: 5px;
     width: 730px;
 }
+
 h4{
     font-family: "Lato";
     margin-left: 45px;
 
 }
+
 #texteapropos{
     text-indent: 50px;
     color: white;
     font-weight: 400;
 }
+
 #footer{
     
     background: #782221;
     height: 100px;
 }
+
 .icones{
     height: 35px;
     width: 35px;
     padding: 5px;
-       }
+}
+
 .threeicones{
     display: flex;
     justify-content: center;
     margin-top: 15px;
-            }   
+}
+
 .linkedin:hover{
     opacity: 0.7;
 }
+
 .twitter:hover{
     opacity: 0.7;
 }
+
 .github:hover{
     opacity: 0.7;
+}
+
+time{
+    display: flex;
+    color: white;
+    font-family: "Raleway";
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 
